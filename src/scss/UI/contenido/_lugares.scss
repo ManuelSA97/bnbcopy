@@ -7,10 +7,10 @@
         display: grid;
         grid-template-columns: repeat(4, 30rem);
         column-gap: 4rem;
-        overflow: scroll;
-        scroll-snap-type: x mandatory;
+        @include m.scrollh;
         @include m.tablet { 
             @include m.grid(2, 2rem);
+            overflow: hidden;
         }
 
         @include m.desktop { 
@@ -29,5 +29,5 @@
     &__nombre{
         font-size: 1.8rem;
     }
-    scroll-snap-align: center;
+    
 }
