@@ -1,0 +1,1 @@
+Landing Page de una versión antigua del sitio web www.airbnb.com, a modo de practica sobre replicación de diseño, Creada con HTML y SCSS, utilizando BEM y GULP. Sitio: https://bnbcopy-jmsa.netlify.app/
